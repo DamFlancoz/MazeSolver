@@ -17,7 +17,7 @@
 public class MazeSolver {
     public static String findPath(Maze maze) {
 
-        //Initialising required variables: path, current location, visited cells
+        //Initializing required variables: path, current location, visited cells
         Stack<MazeLocation> path = new StackRefBased<>();
         MazeLocation current = maze.getEntry();
         boolean[][] visited = new boolean[maze.getNumRows()][maze.getNumCols()] ;
